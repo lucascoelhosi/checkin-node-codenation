@@ -5,7 +5,7 @@ const FormData = require("form-data");
 
 module.exports = {
     async index (request, response) {
-        const POST_URL = "https://api.codenation.dev/v1/challenge/dev-ps/submit-solution?token=cb6c0d37493e724f9063cca1e614c566f20530c3";
+        const POST_URL = "https://api.codenation.dev/v1/challenge/dev-ps/submit-solution?token=TOKEN";
 
         const formData = new FormData();
 

@@ -4,7 +4,7 @@ const fs = require('fs');
 
 module.exports = {
     async index (request, response) {
-        const GET_URL = "https://api.codenation.dev/v1/challenge/dev-ps/generate-data?token=cb6c0d37493e724f9063cca1e614c566f20530c3";
+        const GET_URL = "https://api.codenation.dev/v1/challenge/dev-ps/generate-data?token=TOKEN";
         
         function getInfo(){
             return axios.get(GET_URL);
